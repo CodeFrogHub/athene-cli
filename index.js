@@ -1,4 +1,4 @@
 module.exports = function(args) {
   console.log("Athene CLI");
-  console.log("Args: %j", args);
+  console.log("Args: %j", process.argv);
 };

@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "command line interface for athene",
   "main": "index.js",
+  "bin": {
+    "athene-cli": "./bin/athene-cli"
+  },
   "scripts": {
     "test": "mocha"
   },
